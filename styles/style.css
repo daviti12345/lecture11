@@ -17,7 +17,52 @@ h1 {
   font-weight: 700;
   word-wrap: break-word;
 }
-
+form {
+  display: flex;
+  margin-bottom: 51px;
+}
+.left-side textarea {
+  resize: none;
+  height: 298px;
+  width: 756px;
+  background-color: #f8f8f8;
+  border: 2px solid #00000033;
+  padding-top: 23px;
+  padding-left: 21px;
+  color: #99999a;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-right: 20px;
+}
+input[type="text"] {
+  width: 370px;
+  height: 59px;
+  background-color: #d4d3d34d;
+  border: 2px solid #00000033;
+  color: #99999a;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding:19px;
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  width: 370px;
+  height: 59px;
+  background-color: #5968f4;
+  border: none;
+  color: #fbfbff;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: 700;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   max-width: 1160px;
   width: 100%;
@@ -26,65 +71,6 @@ h1 {
 .cont {
   margin-top: 57px;
   margin-bottom: 70px;
-}
-.div1 {
-  max-width: 756px;
-  width: 100%;
-  height: 298px;
-  background-color: #f8f8f8;
-  border: 3px #00000033 solid;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 51px;
-}
-.div2 {
-  max-width: 370px;
-  width: 100%;
-  height: 298px;
-  display: inline-block;
-  margin-left: 20px;
-}
-.text {
-  color: #99999a;
-  font-size: 14px;
-  font-family: Helvetica;
-  font-weight: 700;
-  word-wrap: break-word;
-  margin-top: 23px;
-  margin-left: 21px;
-}
-.card {
-  max-width: 370px;
-  width: 100%;
-  height: 59px;
-  background-color: #f8f8f8;
-  margin-bottom: 20px;
-  border: 3px #00000033 solid;
-}
-.card p {
-  color: #99999a;
-  font-size: 14px;
-  font-family: Helvetica;
-  font-weight: 700;
-  word-wrap: break-word;
-  margin-top: 21px;
-  margin-left: 19px;
-}
-.card1 {
-  max-width: 370px;
-  width: 100%;
-  height: 59px;
-  background-color: #5968f4;
-}
-.card1 p {
-  color: #fbfbff;
-  font-size: 14px;
-  font-family: Helvetica;
-  font-weight: 700;
-  word-wrap: break-word;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .container1 {
   max-width: 1000px;
@@ -123,8 +109,6 @@ h1 {
 }
 .frame {
   display: flex;
-}
-.frame1 {
 }
 .cont1 {
   display: flex;
