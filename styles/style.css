@@ -24,7 +24,7 @@ form {
 .left-side textarea {
   resize: none;
   height: 298px;
-  width: 756px;
+  width:756px;
   background-color: #f8f8f8;
   border: 2px solid #00000033;
   padding-top: 23px;
@@ -62,6 +62,10 @@ input[type="submit"] {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
 }
 .container {
   max-width: 1160px;
